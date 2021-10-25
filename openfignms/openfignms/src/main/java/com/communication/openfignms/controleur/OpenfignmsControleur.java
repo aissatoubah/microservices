@@ -1,0 +1,46 @@
+package com.communication.openfignms.controleur;
+
+
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.communication.openfignms.AssureDTO;
+import com.communication.openfignms.proxy.AssureProxy;
+
+@Controller
+public class OpenfignmsControleur {
+	
+	
+		
+		@Autowired
+		private AssureProxy assureProxy;
+		
+		Logger log =LoggerFactory.getLogger(getClass());
+		
+		@GetMapping("/")
+		public String accueil(Model model) {
+			log.info("je suis dans accueil");
+			List<AssureDTO> assure = assureProxy.listerAssures();
+			model.addAttribute("openfeignAssures", assure);
+		return  "Accueil";
+	}
+		
+		@GetMapping("/Assure/numeroAssure/{assure.numeroAssure")
+		public String detailAssure(@PathVariable Long numeroAssure, Model  model) {
+			log.info("je suis dans detailAssure");
+			List<AssureDTO> assures = assureProxy.detailAssures(numeroAssure);
+			model.addAttribute("openfeignAssures", assures);
+		return  "DetailAssure";
+	}
+		
+		
+		
+}
