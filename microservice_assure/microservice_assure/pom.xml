@@ -15,7 +15,7 @@
 	<description>SpringBoot et MySqL Creation de la base previt_db et de la table assure</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>

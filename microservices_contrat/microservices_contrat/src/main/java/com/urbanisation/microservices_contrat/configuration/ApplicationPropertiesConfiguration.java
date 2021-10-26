@@ -1,4 +1,4 @@
-package com.urbanisation_microservices_produit.configuration;
+package com.urbanisation.microservices_contrat.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -9,17 +9,14 @@ import org.springframework.stereotype.Component;
 @RefreshScope 
 
 public class ApplicationPropertiesConfiguration {
-	 private int limiteNombreProduit;
+	 private int limiteNombreContrat;
 
-	 public int getLimiteNombreProduit() {
-	        return limiteNombreProduit;
+	    public int getLimiteNombreContrat() {
+	        return limiteNombreContrat;
 	    }
 
-	    public void setLimiteNombreProduit(int limiteNombreProduit) {
-	        this.limiteNombreProduit = limiteNombreProduit;
+	    public void setLimiteNombreAssure(int limiteNombreContrat) {
+	        this.limiteNombreContrat = limiteNombreContrat;
 	    }
 
-		}
-
-
-
+}
