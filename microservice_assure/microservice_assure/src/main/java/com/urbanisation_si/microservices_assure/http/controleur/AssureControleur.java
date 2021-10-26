@@ -47,8 +47,9 @@ public class AssureControleur {
     private AssureRepository assureRepository;
     
     
-    @Autowired
+    @Autowired    
     ApplicationPropertiesConfiguration appProperties; 
+    
     
 	
 	  Logger log = LoggerFactory.getLogger(this.getClass());
@@ -72,15 +73,13 @@ public class AssureControleur {
 
     	// return assureRepository.findAll();
     	
-    	Iterable<Assure> assuresIterable = assureRepository.findAll();
-        List assuresList = StreamSupport 
-                .stream(assuresIterable.spliterator(), false) 
-                .collect(Collectors.toList()); 
-        List<Assure> listeLimitee = assuresList.subList(0, appProperties.getLimiteNombreAssure());
-        return listeLimitee;
-
-    }
-    
+    	   Iterable<Assure> assuresIterable = assureRepository.findAll();
+           List assuresList = StreamSupport 
+                   .stream(assuresIterable.spliterator(), false) 
+                   .collect(Collectors.toList()); 
+           List<Assure> listeLimitee = assuresList.subList(0, appProperties.getLimiteNombreAssure());
+           return listeLimitee;
+       }
 
 	  @GetMapping(path="/Assure/numeroPersonne/{numeroPersonne}")
 		public List<Assure> rechercherAssureNumeroPersonne(@PathVariable Long numeroPersonne) {
