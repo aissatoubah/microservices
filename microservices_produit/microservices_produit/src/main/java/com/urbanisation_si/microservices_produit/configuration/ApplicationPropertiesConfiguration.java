@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component    
 @ConfigurationProperties("urbanisation-si.clairprev") 
-/* @RefreshScope */ 
+ @RefreshScope  
 public class ApplicationPropertiesConfiguration {
 	 private int limiteNombreProduit;
 
