@@ -1,10 +1,10 @@
-package com.communication.openfignms;
+package com.urbanisation_si.microservices_zuulserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OpenfignmsApplicationTests {
+class ZuulServerApplicationTests {
 
 	@Test
 	void contextLoads() {
