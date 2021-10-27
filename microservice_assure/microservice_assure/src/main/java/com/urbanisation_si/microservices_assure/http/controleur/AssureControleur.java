@@ -164,7 +164,6 @@ public class AssureControleur {
 			return new SimpleFilterProvider().addFilter(nomDuFiltre, unFiltre);
 		}
 
-		//J2- 13
 		public MappingJacksonValue filtrerAssures(List<Assure> assures, FilterProvider listeFiltres) {
 
 			MappingJacksonValue assuresFiltres = new MappingJacksonValue(assures);
