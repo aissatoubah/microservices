@@ -1,11 +1,11 @@
-package com.urbanisation_microservices_produit.dao;
+package com.urbanisation_si.microservices_produit.dao;
 
 import java.util.List;
 
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.urbanisation_microservices_produit.modele.Produit;
+import com.urbanisation_si.microservices_produit.modele.Produit;
 
 
 

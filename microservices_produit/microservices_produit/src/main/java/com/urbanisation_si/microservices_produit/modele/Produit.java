@@ -1,4 +1,4 @@
-package com.urbanisation_microservices_produit.modele;
+package com.urbanisation_si.microservices_produit.modele;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.urbanisation_microservices_produit.configuration;
+package com.urbanisation_si.microservices_produit.configuration;
 
 import org.springframework.context.annotation.Bean;
 

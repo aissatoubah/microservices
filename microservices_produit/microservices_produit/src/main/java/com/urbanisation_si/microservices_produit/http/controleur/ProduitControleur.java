@@ -1,4 +1,4 @@
-package com.urbanisation_microservices_produit.http.controleur;
+package com.urbanisation_si.microservices_produit.http.controleur;
 
 
 
@@ -28,11 +28,10 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
-import com.urbanisation_microservices_produit.configuration.ApplicationPropertiesConfiguration;
-import com.urbanisation_microservices_produit.dao.ProduitRepository;
-import com.urbanisation_microservices_produit.exceptions.ProduitIntrouvableException;
-import com.urbanisation_microservices_produit.modele.Produit;
-
+import com.urbanisation_si.microservices_produit.configuration.ApplicationPropertiesConfiguration;
+import com.urbanisation_si.microservices_produit.dao.ProduitRepository;
+import com.urbanisation_si.microservices_produit.exceptions.ProduitIntrouvableException;
+import com.urbanisation_si.microservices_produit.modele.Produit;
 
 import java.util.stream.Collectors;
 import io.swagger.annotations.Api;

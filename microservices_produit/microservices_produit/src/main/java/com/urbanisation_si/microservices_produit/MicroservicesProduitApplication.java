@@ -1,4 +1,4 @@
-package com.urbanisation_microservices_produit;
+package com.urbanisation_si.microservices_produit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

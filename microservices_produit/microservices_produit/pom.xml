@@ -11,7 +11,7 @@
 	<groupId>com.urbanisation-si</groupId>
 	<artifactId>microservice_produit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice_assure</name>
+	<name>microservice_produit</name>
 	<description>SpringBoot et MySqL Creation de la base produit_db et de la table produit</description>
 	<properties>
 		<java.version>11</java.version>
