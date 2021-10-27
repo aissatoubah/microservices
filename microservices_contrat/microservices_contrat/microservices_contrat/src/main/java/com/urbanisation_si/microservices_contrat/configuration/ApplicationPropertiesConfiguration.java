@@ -6,8 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component    
 @ConfigurationProperties("urbanisation-si.clairprev") 
-
-
+@RefreshScope  
 public class ApplicationPropertiesConfiguration {
 	 private int limiteNombreContrat;
 
