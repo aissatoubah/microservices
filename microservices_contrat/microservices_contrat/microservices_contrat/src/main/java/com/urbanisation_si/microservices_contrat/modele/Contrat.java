@@ -1,4 +1,4 @@
-package com.urbanisation.microservices_contrat.modele;
+package com.urbanisation_si.microservices_contrat.modele;
 
 import java.time.LocalDate;
 
