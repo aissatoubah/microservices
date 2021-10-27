@@ -11,9 +11,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.urbanisation-si</groupId>
-	<artifactId>microservice_produit</artifactId>
+	<artifactId>microservices_produit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice_produit</name>
+	<name>microservices_produit</name>
 	<description>Spring Boot et H2. Creation de la base referentiel_produit_db et des tables produit, risque, garantie, condition_de_prestation</description>
 
 	<properties>
