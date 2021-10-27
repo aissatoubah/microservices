@@ -15,7 +15,7 @@
 	<description>Serveur de configuration pour les microservices de l'étude de cas ClairPrev</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 
