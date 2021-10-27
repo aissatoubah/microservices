@@ -1,4 +1,4 @@
-package com.urbanisation_si.microservices_contrat.exception;
+package com.urbanisation_si.microservices_contrat.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

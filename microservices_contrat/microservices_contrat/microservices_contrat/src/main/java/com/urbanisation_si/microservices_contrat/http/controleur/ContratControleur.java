@@ -1,5 +1,4 @@
 package com.urbanisation_si.microservices_contrat.http.controleur;
-
 import java.net.URI;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -31,7 +30,7 @@ import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 import com.urbanisation_si.microservices_contrat.configuration.ApplicationPropertiesConfiguration;
 import com.urbanisation_si.microservices_contrat.dao.ContratRepository;
-import com.urbanisation_si.microservices_contrat.exception.ContratIntrouvableException;
+import com.urbanisation_si.microservices_contrat.exceptions.ContratIntrouvableException;
 import com.urbanisation_si.microservices_contrat.modele.Contrat;
 
 import io.swagger.annotations.Api;
